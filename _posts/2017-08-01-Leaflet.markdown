@@ -1,0 +1,9 @@
+---
+layout: maps
+title: My New Map
+center: "[41.5, -81.7]"
+zoom: 10
+basemap: ortho
+---
+
+//Add code here such as layers and interaction

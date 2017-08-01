@@ -8,9 +8,14 @@
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="/assets/leaflet.css" />
+       <script src="/assets/leaflet.js"></script>
+       {% if page.layout == 'map' %}<style>
+       #map {position:absolute;top:0;bottom:0;left:0;width:100%;}
+       </style>{% endif %}
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-    
+
     <!-- Bootstrap theme -->
     <link rel="stylesheet" href="{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl }}">
 
