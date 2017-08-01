@@ -4,6 +4,7 @@ title: My New Map
 center: "[41.5, -81.7]"
 zoom: 10
 basemap: ortho
+preview: https://s-media-cache-ak0.pinimg.com/originals/c7/79/b2/c779b26a3369ee688af9421a44f40f34.jpg
 ---
 
 //Add code here such as layers and interaction
